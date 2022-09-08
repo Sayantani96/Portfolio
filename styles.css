@@ -14,9 +14,6 @@
 body{
     padding:5px;
 }
-.header-container{
-    text-align:center;
-}
 header{
     /* width:100vw; */
     padding:2.7rem;
@@ -138,7 +135,7 @@ i{
 
 @media screen and (max-width:768px) {
     header{
-     width:80%;
+     max-width: 85vw;
     }
     body{
      padding:0;
@@ -151,5 +148,8 @@ i{
     } */
     a{
         font-size:16px;
+    }
+    .navigation{
+        margin:0;
     }
  }
