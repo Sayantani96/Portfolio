@@ -11,13 +11,18 @@
     font-family:var(--font);
     color:var(--black);
 }
+body{
+    padding:5px;
+}
 header{
     /* width:100vw; */
-    padding:20px;
+    padding:2.7rem;
     background-color: var(--main-color);
     display:flex;
     justify-content: space-between;
+    border-radius:8px 0;
 }
+
 
 .navigation{
     list-style: none;
@@ -36,7 +41,7 @@ header{
 a{
     text-decoration: none;
     color:var(--sub-color);
-    font-size: large;
+    font-size:1.3rem;
 }
 .logo-container{
     max-width: 80%;
@@ -61,7 +66,7 @@ img{
 
 .banner{
     margin:18px;
-    width:45%;
+    width:60%;
     padding:15px;
     background-color:var(--banner-color) ;
     text-align:center;
@@ -83,6 +88,7 @@ button{
     padding:10px;
     border:0;
     border-radius: 8px;
+    margin:5px;
 }
 
 .banner-btn{
@@ -123,3 +129,21 @@ i{
     color:var(--sub-color);
     padding:12px 0;
 }
+.main-content{
+    text-align:center;
+}
+
+@media screen and (max-width:768px) {
+    header{
+     width:95vw;
+    }
+    body{
+     padding:0;
+    }
+    .banner{
+     width:80%;
+    }
+    footer{
+        width:114vw;
+    }
+ }
