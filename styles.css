@@ -135,7 +135,7 @@ i{
 
 @media screen and (max-width:768px) {
     header{
-     max-width: 85vw;
+     /* max-width: 95vw; */
     }
     body{
      padding:0;
@@ -151,5 +151,8 @@ i{
     }
     .navigation{
         margin:0;
+    }
+    .nav-link{
+        margin:15px 4px;
     }
  }
