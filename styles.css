@@ -153,3 +153,23 @@ i{
         margin:6px 4px;
     }
  }
+ @media screen and (max-width:400px) {
+    body{
+     padding:0;
+    }
+    .banner{
+     width:80%;
+    }
+    /* footer{
+        width:114vw;
+    } */
+    a{
+        font-size:14px;
+    }
+    .navigation{
+        margin:0;
+    }
+    .nav-link{
+        margin:6px 2px;
+    }
+ }
